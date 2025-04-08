@@ -2,8 +2,8 @@
 
 on:
   workflow_dispatch:
-###  schedule:
-###    - cron: '6 2 * * *'
+  schedule:
+    - cron: '12 22 * * 3'
   push:
     branches:
       - master
